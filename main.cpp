@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     cout << "Problem 1\n";
-    problemSolution1(13 + (30 * 0.4) + (20 * 0.12) + (10 * 1.4) + ((consumed_water - 60) * 1.5));
+    problemSolution1(13 + (30 * .4) + (20 * 0.12) + (10 * 1.4) + ((consumed_water - 60) * 1.5));
     cout << "Problem 2\n";
     problemSolution2(highestPrice);
     cout << "Problem 3\n";

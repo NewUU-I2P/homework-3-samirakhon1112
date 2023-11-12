@@ -12,6 +12,5 @@ void problemSolution1(float consumed_water) {
     } else {
         cout << 13 + (30 * 0.4) + (20 * 0.12) + (10 * 1.4) + ((consumed_water - 60) * 1.5) << endl;
     }
-
     return cost;
 }
