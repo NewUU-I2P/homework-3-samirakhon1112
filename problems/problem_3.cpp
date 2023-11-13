@@ -22,6 +22,8 @@ std::string problemSolution3(float height, char S) {
     } else {
         cout << "undefined gender"
     }
+
+    return result;
     // use return to return your result
     // make use of control flow statements
 }
