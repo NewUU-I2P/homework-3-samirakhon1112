@@ -15,7 +15,7 @@ std::string problemSolution3(float height, char S) {
         if (height < 1.60) {
             result = "short";
         } if else (height >= 1.60 && height == 1.75) {
-            result "normal";
+            result = "normal";
         } else {
             result = "tall";
         }
