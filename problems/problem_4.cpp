@@ -9,7 +9,7 @@ std::string problemSolution4(const std::string &macAddress) {
     int firstOctet;
     std::stringstream(octet) >> std::hex >> firstOctet;
     if (firstOctet % 2 == 0) {
-        return "Unicast"
+        return "Unicast";
     }
     else if (firstOctet % 2 != 0 && firstOctet == 255) {
         return  "Multicast";
