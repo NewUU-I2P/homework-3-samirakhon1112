@@ -3,7 +3,6 @@
 
 std::string problemSolution4(const std::string &macAddress) {
     // write your code here
-
     std::istringstream iss(macAdress);
     std::string octet;
     getline(iss,octet,':');
@@ -15,7 +14,7 @@ std::string problemSolution4(const std::string &macAddress) {
     else if (firstOctet % 2 != 0 && firstOctet == 255) {
         return  "Multicast";
     }
-    else if (firstOctet == 255) {
+    else if (firstOctet == 255 {
         return "Broadcast";
     }
 
