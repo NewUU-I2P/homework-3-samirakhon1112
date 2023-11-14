@@ -12,7 +12,7 @@ std::string problemSolution4(const std::string &macAddress) {
     if (firstOctet % 2 == 0) {
         return "Unicast"
     }
-    else if (firstOctet % 2 != 0) {
+    else if (firstOctet % 2 != 0 && firstOctet == 255) {
         return  "Multicast";
     }
     else if (firstOctet % 2 == 255) {
