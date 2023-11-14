@@ -4,6 +4,21 @@
 std::string problemSolution4(const std::string &macAddress) {
     // write your code here
 
+    std::istringstream iss(macAdress);
+    std::string octet;
+    getline(iss,octet,':');
+    int firstOctet;
+    std::stringstream(octet) >> std::hex >> firstOctet;
+    if (firstOctet % 2 == 0) {
+        return "Unicast"
+    }
+    else if (firstOctet % 2 != 0) {
+        return  "Multicast";
+    }
+    else if (firstOctet % 2 == 255) {
+        return "Broadcast";
+    }
+
     // make use of control flow statements
     // return result;
 }
